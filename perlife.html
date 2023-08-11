@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Life</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: coral; 
+        color: #333; 
+      }
+      span{
+        padding: 10px;
+        margin: 0px 10px 20px 10px;
+        font-size: 40px;
+        font-weight: bolder;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .card {
+        max-width: 600px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        margin-bottom: 20px;
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+
+      .card-content {
+        text-align: justify;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: coral;
+        color: white;
+        width: 100%;
+      }
+
+      .footer a {
+        background-color: black;
+        color: aquamarine;
+        text-decoration: none;
+        margin: 0px 10px;
+        border: 4px solid aquamarine;
+        padding: 5px;
+        border-radius: 20px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .card {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <center><span>Personal Life</span></center>
+        <img src="ganganagar.jpg" alt="Sri Ganganagar" />
+        <div class="card-content">
+          <p>
+            I come from a small village named <strong>Rohiranwali</strong> in
+            district <strong>Sri Ganganagar</strong>, Rajasthan, near the
+            Indo-Pak border. I belong to a joint family, and our main source of
+            income is farming.
+          </p>
+          <p>
+            In my free time, I enjoy watching anime and listening to Punjabi
+            songs. I also have a passion for traveling to new places, especially
+            on motorcycles. Exploring different landscapes and cultures is an
+            exhilarating experience for me.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <a href="resum.html">Main Page</a>
+        <a href="hobbi.html">My Hobbies</a>
+      </div>
+    </div>
+  </body>
+</html>
